@@ -187,7 +187,7 @@ button:focus {
   z-index: 1;
 }
 
-.navbar-nav .nav-item a::after {
+/* .navbar-nav .nav-item a::after {
   content: "";
   position: relative;
   display: block;
@@ -199,10 +199,26 @@ button:focus {
   left: 0;
   z-index: -1;
   transition: all 0.3s ease-out 0s;
+} */
+
+.navbar-nav .nav-item a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 5px;
+  width: 0;
+  border-radius: 16px;
+  background: #c95bf5;
+  bottom: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  transition: all 0.3s ease-out 0s;
 }
 
+
 .navbar-nav .nav-item a:hover::after {
-  width: 100%;
+  width: 70%;
 }
 
 /* --------- */
@@ -252,6 +268,7 @@ button:focus {
 
 .home-header {
   padding-top: 80px !important;
+  text-align: center;
 }
 
 .home-section {
@@ -267,7 +284,7 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
-  text-align: left;
+  text-align: center;
 }
 
 .heading {
@@ -284,14 +301,50 @@ button:focus {
   color: #cd5ff8;
 }
 
+/* ScrollToBottomArrow.css */
+
+/* ScrollToBottomArrow.css */
+
+.scroll-to-bottom-container {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-to-bottom-arrow {
+  background-color: #3f51b551; /* Circle background color */
+  color: #ffffff; /* Arrow color */
+  font-size: 24px;
+  width: 40px; /* Set width to create a perfect circle */
+  height: 40px; /* Set height to create a perfect circle */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.scroll-to-bottom-arrow:hover {
+  transform: scale(1.2);
+}
+
+
 .Typewriter__wrapper {
   font-size: 2.2em !important;
   color: #be6adf !important;
   font-weight: 600 !important;
+  margin: 0 auto; /* Center horizontally */
+  text-align: center;
 }
+
 .Typewriter__cursor {
   font-size: 2.4em !important;
   color: #b562d6 !important;
+  margin: 0 auto; /* Center horizontally */
+  text-align: center;
 }
 
 @media (max-width: 767px) {
@@ -299,6 +352,8 @@ button:focus {
     font-size: 1.4em !important;
     font-weight: 500 !important;
     position: absolute !important;
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%)
   }
   .Typewriter__cursor {
     display: none !important;
