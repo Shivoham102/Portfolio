@@ -1,55 +1,53 @@
 import React from "react";
 import Particles from "react-tsparticles";
 
-function Particle() {
-  return (
-    <Particles
-      id="tsparticles"
-      params={{
-        particles: {
-          number: {
-            value: 160,
-            density: {
-              enable: true,
-              value_area: 1500,
-            },
-          },
-          line_linked: {
-            enable: false,
-            opacity: 0.03,
-          },
-          move: {
-            direction: "right",
-            speed: 0.05,
-          },
-          size: {
-            value: 1,
-          },
-          opacity: {
-            anim: {
-              enable: true,
-              speed: 1,
-              opacity_min: 0.05,
-            },
-          },
+function Particle({ scrollY }) {
+  const particlesParams = {
+    particles: {
+      number: {
+        value: 100,
+        density: {
+          enable: true,
+          value_area: 3000,
         },
-        interactivity: {
-          events: {
-            onclick: {
-              enable: true,
-              mode: "push",
-            },
-          },
-          modes: {
-            push: {
-              particles_nb: 1,
-            },
-          },
+      },
+      line_linked: {
+        enable: false,
+        opacity: 0.03,
+      },
+      move: {
+        direction: "left",
+        speed: scrollY * 1, // Adjust the speed based on scroll
+      },
+      size: {
+        value: 2.5,
+      },
+      opacity: {
+        anim: {
+          enable: true,
+          speed: 1,
+          opacity_min: 0.1, // Adjust the opacity based on scroll
         },
-        retina_detect: true,
-      }}
-    />
-  );
+      },     
+    },
+    interactivity: {
+      events: {
+        onclick: {
+          enable: true,
+          mode: "push",
+        },
+      },
+      modes: {
+        push: {
+          particles_nb: 1,
+        },
+      },
+    },
+    retina_detect: true,
+  };
+  
+
+  return <Particles id="tsparticles" params={particlesParams} />;
 }
 
 export default Particle;

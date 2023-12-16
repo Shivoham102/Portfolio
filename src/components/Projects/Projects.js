@@ -15,7 +15,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My <strong className="purple">Projects </strong>
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I've worked on recently.
@@ -25,21 +25,29 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Gujarati Script Recognition"
+              description="A project for creating a digital library of the Gujarati language Newspapers by extracting text from images and saving in text format."
+              demoLink="https://colab.research.google.com/drive/1J791i6JE1vxXo__5fAIf0-IDvaDAAMGe?usp=sharing"          
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatify}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="3D Platformer"
+              description="A 3D platformer game with features like menu screens, level unlocking, saves, sound effects and high score system."
+              ghLink="https://github.com/Shivoham102/3D-Platformer"           
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={true}
+              title="Google Summer of Code 2022 Blog"
+              description="The blog I wrote daily during my role as a Student Contributor in Google Summer of Code 2022 at Cuneiform Digital Library Initiative. My project was titled New Features and Usability Enhancement."
+              ghLink="https://cdli-gh.github.io/blog/gsoc22/NewFeaturesAndUsabilityEnhancement/index"          
             />
           </Col>
 
@@ -47,46 +55,34 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Discord Quiz Bot"
+              description="A simple discord bot that uses open trivia API. The bot has 2 types of questions - True/False and MCQ type questions. The bot was made in Repl.it and hosted on UptimeRobot."
+              ghLink="https://github.com/Shivoham102/Discord-Quiz-Bot"
+              demoLink="https://replit.com/@ShivohamAngal/Quiz-Bot#main.py"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={editor}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Aura Imaging"
+              description="A research-based project attempting to devise a cheap software solution to visualize aura of a person and derive health-based conclusions. The project involved formulating and implementing ways to manipulate images and get an aura image."
+              ghLink=""
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Vedic Maths Website"
+              description="A website created to teach vedic maths sutras to children supported with animated videos. Questionnaire page for practicing questions."
+              ghLink="https://github.com/Shivoham102/vedic-math-web-app"          
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+                  
         </Row>
       </Container>
     </Container>

@@ -274,7 +274,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -301,9 +301,8 @@ button:focus {
   color: #cd5ff8;
 }
 
-/* ScrollToBottomArrow.css */
 
-/* ScrollToBottomArrow.css */
+/* ScrollToBottomArrow Style */
 
 .scroll-to-bottom-container {
   position: fixed;
@@ -324,13 +323,38 @@ button:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.3s ease-in-out;
 }
 
-.scroll-to-bottom-arrow:hover {
-  transform: scale(1.2);
+@keyframes bobbing {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
 }
 
+.scroll-to-bottom-arrow.animated {
+  animation: bobbing 5s ease-in-out infinite; /* Adjust the duration and other properties as needed */
+}
+
+.scroll-to-bottom-container.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.scroll-to-bottom-container.hidden {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .scroll-to-bottom-container{
+    display: none;
+  }
+}
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
