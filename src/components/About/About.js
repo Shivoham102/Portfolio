@@ -8,6 +8,7 @@ import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import ProjectCard from "../Projects/ProjectCards";
 import cdli from "../../Assets/Projects/CDLI Logo.png";
+import vesit from "../../Assets/Projects/vesit.png";
 
 function About() {
   return (
@@ -54,9 +55,9 @@ function About() {
 
             <Col md={4} className="project-card">
               <ProjectCard
-                    imgPath={cdli}                    
+                    imgPath={vesit}                    
                     title="Web Development Intern at VESIT Renaissance Cell (2021)"
-                    description="Worked as a web development intern to create a website for learning vedic mathematics along with a team."
+                    description="Worked as a web development intern to create a website using React for learning vedic mathematics along with a team."
                     ghLink="https://github.com/Shivoham102/vedic-math-web-app"          
                   />
             </Col>
