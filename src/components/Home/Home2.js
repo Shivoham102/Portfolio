@@ -59,10 +59,7 @@ const Home2 = React.forwardRef((props, ref) => {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
+            <h1><span className="purple">CONNECT</span> WITH ME</h1>            
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

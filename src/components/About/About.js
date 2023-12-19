@@ -65,13 +65,13 @@ function About() {
         </Container>
 
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          <strong className="purple">Skillset </strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Tools</strong> I use
+          <strong className="purple">Tools</strong>
         </h1>
         <Toolstack />
 
