@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaGitlab } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 function Footer() {
   let date = new Date();
@@ -46,7 +47,17 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>          
+            </li>
+            <li className="social-icons">
+                <a
+                  href="https://leetcode.com/Shivoham102/"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"               
+                >
+                  <SiLeetcode />
+                </a>
+              </li>       
           </ul>
         </Col>
       </Row>

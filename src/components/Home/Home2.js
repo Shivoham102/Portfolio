@@ -6,6 +6,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaGitlab } from "react-icons/fa";
+import { SiLeetcode } from "react-icons/si";
 
 // function Home2() {
 const Home2 = React.forwardRef((props, ref) => {
@@ -15,40 +16,12 @@ const Home2 = React.forwardRef((props, ref) => {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              An <span className="purple"> Overview </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              As a computer science graduate, I bring a strong proficiency in leveraging advanced technologies to solve complex issues.
+              My expertise is evident through impactful contributions to <span className="purple"> open source</span> projects,
+              <span className="purple"> public speaking</span> engagements, and successful collaborations that have positively impacted users globally.                           
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -59,7 +32,7 @@ const Home2 = React.forwardRef((props, ref) => {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1><span className="purple">CONNECT</span> WITH ME</h1>            
+            <h1><span className="purple">Connect</span> with Me</h1>            
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -89,6 +62,16 @@ const Home2 = React.forwardRef((props, ref) => {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://leetcode.com/Shivoham102/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiLeetcode />
                 </a>
               </li>         
             </ul>

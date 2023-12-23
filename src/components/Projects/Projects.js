@@ -8,6 +8,7 @@ import blog from "../../Assets/Projects/blog.png";
 import discordbot from "../../Assets/Projects/discordbot.png";
 import aura from "../../Assets/Projects/aura.png";
 import vedic from "../../Assets/Projects/vedic.png";
+import gsoctalk from "../../Assets/Projects/gsoctalk.jpeg";
 
 function Projects() {
   return (
@@ -41,15 +42,7 @@ function Projects() {
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={blog}
-              isBlog={true}
-              title="Google Summer of Code 2022 Blog"
-              description="The blog I wrote daily during my role as a Student Contributor in Google Summer of Code 2022 at Cuneiform Digital Library Initiative. My project was titled New Features and Usability Enhancement."
-              ghLink="https://cdli-gh.github.io/blog/gsoc22/NewFeaturesAndUsabilityEnhancement/index"          
-            />
-          </Col> */}
+        
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -68,7 +61,7 @@ function Projects() {
               isBlog={false}
               title="Aura Imaging"
               description="A research-based project attempting to devise a cheap software solution to visualize aura of a person and derive health-based conclusions. The project involved formulating and implementing ways to manipulate images and get an aura image."            
-              demoLink="https://docs.google.com/document/d/1P2QjCm8w2LDR0c6xlQSOOl1XW_X0EHPU/edit?usp=sharing&ouid=115944053206117226789&rtpof=true&sd=true"
+              demoLink="https://colab.research.google.com/drive/1DFuC5fMBUIM7nUahmlSb2gJ_GbcWF839?usp=sharing"
             />
           </Col>
 
@@ -82,6 +75,31 @@ function Projects() {
             />
           </Col>
                   
+        </Row>
+
+        <h1 className="project-heading">
+          Noteworthy <strong className="purple">Achievements </strong>
+        </h1>
+
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={gsoctalk}          
+                title="The GSoC Talk"
+                description="Conducted a concise talk on Google Summer of Code (GSoC) to a group of 50 juniors during Hacktoberfest by CodeCell VESIT 2022, empowering them to contribute to open source while demonstrating strong communication skills."          
+              />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              title="Google Summer of Code 2022 Blog"
+              description="The blog I wrote daily during my role as a Student Contributor in Google Summer of Code 2022 at Cuneiform Digital Library Initiative. My project was titled New Features and Usability Enhancement."
+              demoLink="https://cdli-gh.github.io/blog/gsoc22/NewFeaturesAndUsabilityEnhancement/index"          
+            />
+          </Col>        
+
         </Row>
       </Container>
     </Container>
