@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c55f44ad.css",
+    "main.js": "/Portfolio/static/js/main.e7ae61dd.js",
+    "static/js/787.7da95b79.chunk.js": "/Portfolio/static/js/787.7da95b79.chunk.js",
+    "static/media/pfp.png": "/Portfolio/static/media/pfp.f3bf3d8f2e642caf7369.png",
+    "static/media/3dplatformer.png": "/Portfolio/static/media/3dplatformer.5397bede3ec81656f0fb.png",
+    "static/media/aura.png": "/Portfolio/static/media/aura.b371a3c97c0e6e319347.png",
+    "static/media/blog.png": "/Portfolio/static/media/blog.bf5136c4eae25b4b3462.png",
+    "static/media/Shivoham Resume SDE V2.pdf": "/Portfolio/static/media/Shivoham Resume SDE V2.c5c8a121d60d9d7e2160.pdf",
+    "static/media/about.png": "/Portfolio/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/gsoctalk.jpeg": "/Portfolio/static/media/gsoctalk.868fba0aa25d13e4bd07.jpeg",
+    "static/media/GSR.png": "/Portfolio/static/media/GSR.1a177f47217cb47bc570.png",
+    "static/media/vedic.png": "/Portfolio/static/media/vedic.8a925f347f3df1b93d94.png",
+    "static/media/vesit.png": "/Portfolio/static/media/vesit.fa04ba4e2172f5d6ebd9.png",
+    "static/media/logo.png": "/Portfolio/static/media/logo.3041724bff44edaa5736.png",
+    "static/media/CDLI Logo.png": "/Portfolio/static/media/CDLI Logo.17a3ad636c4463436197.png",
+    "static/media/discordbot.png": "/Portfolio/static/media/discordbot.19c42ab8005b3cf820ef.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c55f44ad.css.map": "/Portfolio/static/css/main.c55f44ad.css.map",
+    "main.e7ae61dd.js.map": "/Portfolio/static/js/main.e7ae61dd.js.map",
+    "787.7da95b79.chunk.js.map": "/Portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c55f44ad.css",
+    "static/js/main.e7ae61dd.js"
+  ]
+}
