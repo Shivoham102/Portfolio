@@ -3,9 +3,11 @@
   
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/desktop.png" />
 </div>
-
+<div align="center">
+  <img alt="Demo" src="./Images/mobile.png" />
+</div>
 <br/>
 
 ## Built With
