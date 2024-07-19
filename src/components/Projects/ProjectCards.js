@@ -34,6 +34,18 @@ function ProjectCards(props) {
             Demo
           </Button>
         )}
+
+        {props.demo2Link && (
+          <Button
+            variant="primary"
+            href={props.demo2Link}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            Android Demo
+          </Button>
+        )}  
       </Card.Body>
     </Card>
   );

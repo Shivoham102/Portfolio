@@ -19,9 +19,7 @@ const Home2 = React.forwardRef((props, ref) => {
               An <span className="purple"> Overview </span>
             </h1>
             <p className="home-about-body">
-              As a computer science graduate, I bring a strong proficiency in leveraging advanced technologies to solve complex issues.
-              My expertise is evident through impactful contributions to <span className="purple"> open source</span> projects,
-              <span className="purple"> public speaking</span> engagements, and successful collaborations that have positively impacted users globally.                           
+              As a computer science graduate, I bring a robust skill set combined with creativity and passion. I love working in <span className="purple"> open source</span> projects, and have worked on projects that impacted users globally.                          
             </p>
           </Col>
           <Col md={4} className="myAvtar">

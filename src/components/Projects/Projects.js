@@ -9,6 +9,7 @@ import discordbot from "../../Assets/Projects/discordbot.png";
 import aura from "../../Assets/Projects/aura.png";
 import vedic from "../../Assets/Projects/vedic.png";
 import gsoctalk from "../../Assets/Projects/gsoctalk.jpeg";
+import stock from "../../Assets/Projects/stock.png";
 
 function Projects() {
   return (
@@ -22,6 +23,18 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={stock}
+              isBlog={false}
+              title="Stock Trading Website"
+              description="A website that allows users to buy/sell stocks in real time and watch stock trends and news. It also has features such as portfolio and watchlist of favorite stocks."
+              demoLink="https://stock-search-assignment.wl.r.appspot.com/"
+              demo2Link="https://www.youtube.com/watch?v=iKH4jMjJLl8"       
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={gsr}
