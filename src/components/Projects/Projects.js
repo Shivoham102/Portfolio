@@ -10,6 +10,10 @@ import aura from "../../Assets/Projects/aura.png";
 import vedic from "../../Assets/Projects/vedic.png";
 import gsoctalk from "../../Assets/Projects/gsoctalk.jpeg";
 import stock from "../../Assets/Projects/stock.png";
+import antiswan from "../../Assets/Projects/antiswan.png"
+import trailtale from "../../Assets/Projects/trailtale.png"
+import nirmaan from "../../Assets/Projects/nirmaan.png"
+import humanitycast from "../../Assets/Projects/humanitycast.png"
 
 function Projects() {
   return (
@@ -23,6 +27,49 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={humanitycast}
+              isBlog={false}
+              title="HumanityCast"
+              description="A decentralized social media free of bots powered by the Humanity Protocol"
+              demoLink="https://devfolio.co/projects/humanitycast-490a"
+              ghLink="https://github.com/Heph789/HumanityCast"    
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nirmaan}
+              isBlog={false}
+              title="Nirmaan"
+              description="A web3 app to empower India’s construction workers and provide transparency, fairness, and reliability."
+              demoLink="https://devpost.com/software/nirmaan"
+              ghLink="https://github.com/samarthchandrawat/nirmaan_v1"       
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={trailtale}
+              isBlog={false}
+              title="Trail Tale"
+              description="Trail Tale turns your routes into unique, customizable art mintable as NFTs."
+              demoLink="https://devpost.com/software/trail-tales-spgko2?ref_content=my-projects-tab&ref_feature=my_projects"     
+              ghLink="https://github.com/eitanklass1/trailtails"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={antiswan}
+              isBlog={false}
+              title="Anti Swan"
+              description="An ERC-4626 tokenized vault designed to protect capital by betting against black swan events."
+              demoLink="https://ethglobal.com/showcase/anti-swan-kxtyk"
+              ghLink="https://github.com/anti-black-swan/eth-global-sf-submission"      
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
